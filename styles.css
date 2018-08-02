@@ -1,0 +1,270 @@
+/* GENERAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h4 {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, OpenSans, sans-serif;
+}
+
+.btn {
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 22px;
+    text-align: center;
+}
+
+
+.btn--orange {
+    background:#f09233;
+}
+
+.btn--red {
+    background: rgb(203, 56, 55);
+}
+
+.btn--darkgreen {
+    background: rgb(49, 68, 88);
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header-2 {
+    font-weight: normal;
+    font-size: 36px;
+}
+
+/* NAVIGATION STYLES */
+
+.nav-bar {
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    font-size: 14px;
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding: 8px 0;
+}
+
+.nav-bar a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.top-left {
+    float: left;
+    margin-left: 20px;
+}
+
+.acronym {
+    margin-left: 20px;
+}
+
+.col {
+    float: left;
+}
+
+/* HEADER STYLES */
+
+#main-header {
+    background-color: #1D4E69;
+    background-image: url(https://static.npmjs.com/images/hero-cityscape.svg);
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+}
+
+.search-bar {
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 20px;
+}
+
+.search-bar__logo {
+    width: 100px;
+    vertical-align: top;
+}
+
+
+.search-bar .logo-bear {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.search-bar__text {
+    margin: 0;
+    padding-top: 8px;
+}
+
+.search-bar__text a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+}
+
+.search-form {
+    margin: 0 20px;
+    width: calc(100% - 280px);
+}
+
+.search-form input {
+    width: calc(100% - 40px);
+    height: 40px;
+    vertical-align: top;
+    background: rgb(31, 82, 111);
+    border: 1px solid rgba(160,158,174, 0.4);
+    font-size: 16px;
+    padding-left: 10px;
+    color: white;
+}
+
+.search-form input:focus {
+    outline: none;
+}
+
+.search-form button {
+    font-size: 10px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    outline: none;
+    vertical-align: top;
+    background: rgb(31, 82, 111);
+    border: 1px solid rgba(160,158,174, 0.4);
+}
+
+.signup-info {
+    padding: 40px 64px 64px;
+}
+
+.signup-info__header {
+    font-weight: 200;
+    font-size: 48px;
+    padding: 16px 0;
+}
+
+.signup-info__text {
+    max-width: 550px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+/* COLLABORATION SECTION STYLES */
+
+#collaboration {
+    background: rgb(39, 53, 71);
+    padding: 100px 100px 200px 100px;
+
+}
+
+.collaboration-img {
+    width: 40%;
+}
+
+
+.collaboration-info {
+    float: right;
+    color: white;
+
+}
+
+.collaboration-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.collaboration-info__header {
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.collaboration-info li {
+    padding-top: 8px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/* INSTALLATION SECTION STYLES */
+
+#installation {
+    background-image: url("./images/forklift.svg");
+    background-size: cover;
+    padding: 128px 0;
+    min-height: 60vh;
+    position: relative;
+}
+
+#installation .header-2 {
+    margin-bottom: 30px;
+}
+
+.installation-text {
+    width: 350px;
+    color: white;
+    position: absolute;
+}
+
+#installation .container {
+    position: relative;
+}
+
+
+/* OPPORTUNITIES SECTION STYLES */
+
+#opportunities {
+    max-width: 960px;
+    margin: 0 auto;
+    padding:60px 0 60px;
+}
+
+.opportunities-header, .opportunities-items h4 {
+    text-align: center;
+    color: rgb(83, 88, 98);
+}
+
+.opportunities-items {
+    color: rgb(135, 145, 156);
+}
+
+.opportunities-items div {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 30px;
+    vertical-align: top;
+}
+
+.opportunities-items a {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
